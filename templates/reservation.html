@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <title>Κράτηση Τραπεζιού</title>
+  <style>
+    body { font-family: Arial; background: #fdfdfd; padding: 30px; }
+    form { max-width: 500px; margin: auto; }
+    label { display: block; margin: 10px 0 5px; }
+    input, select { width: 100%; padding: 8px; }
+    button { margin-top: 20px; background: #8b0000; color: white; padding: 10px; border: none; border-radius: 5px; }
+  </style>
+</head>
+<body>
+
+  <h1>Κράτηση Τραπεζιού / Book a Table</h1>
+  <form method="POST" action="/reservation">
+    <label>Ονοματεπώνυμο / Name:</label>
+    <input type="text" name="name" required>
+
+    <label>Τηλέφωνο / Phone:</label>
+    <input type="text" name="phone" required>
+
+    <label>Αριθμός Ατόμων / People:</label>
+    <input type="number" name="people" min="1" required>
+
+    <label>Ημερομηνία / Date:</label>
+    <input type="date" name="date" required>
+
+    <label>Ώρα / Time:</label>
+    <input type="time" name="time" required>
+
+    <button type="submit">Κράτηση / Submit</button>
+  </form>
+
+</body>
+</html>
