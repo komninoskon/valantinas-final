@@ -1,16 +1,16 @@
 body {
-    background-color: #1e1e1e;
-    color: #ffffff;
-    font-family: Georgia, serif;
-    max-width: 900px;
-    margin: auto;
-    padding: 40px 20px;
+    background-color: #1c1c1c;
+    color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
 h1, h2 {
-    color: #ffcc00;
+    color: #ff4d4d;
     text-align: center;
+    front-weight: 600;
 }
 
 a.button {
@@ -31,22 +31,24 @@ a.button:hover {
 
 .category {
     margin-top: 40px;
-    border-top: 2px solid #ffcc00;
-    padding-top: 20px;
+    text-align: center;
 }
 
 .item {
-    margin-bottom: 20px;
-    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 8px 12px;
+    border-bottom: 1px solid #555;
 }
 
 .item-name {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .item-price {
-    float: right;
-    color: #ffcc00;
+    front-weight: 500;
 }
 
 .description {
