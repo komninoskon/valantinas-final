@@ -1,62 +1,52 @@
 body {
-    background-color: #1c1c1c;
-    color: #f2f2f2;
-    font-family: 'Poppins', sans-serif;
+    background-color: #fdfaf7;
+    color: #3e3e3e;
+    font-family: 'Playfair Dispay', serif;
     margin: 0;
     padding: 0;
+}
+
+h1 {
     text-align: center;
-}
-
-h1, h2 {
-    color: #ff4d4d;
-    text-align: center;
-    front-weight: 600;
-}
-
-a.button {
-    display: inline-block;
-    margin: 20px;
-    padding: 15px 30px;
-    background-color: #ffcc00;
-    color: #1e1e1e;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 8px;
-    font-size: 1.2em;
-}
-
-a.button:hover {
-    background-color: #e6b800;
-}
-
-.category {
+    font-size: 36px;
+    color: #7a5c4d;
     margin-top: 40px;
+}
+h2 {
+    color: #6a6a6a;
     text-align: center;
+    font-style: italic;
+    font-size: 26px;
+    margin-top: 40px;
+}
+.category {
+    margin-top: 60px;
+    text-align: left;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .item {
     display: flex;
     justify-content: space-between;
-    max-width: 600px;
-    margin: 10px auto;
-    padding: 8px 12px;
-    border-bottom: 1px solid #555;
+    padding: 8px 0;
+    border-botton: 1px solid #e0dcd5;
+    font-size: 18px;
 }
 
 .item-name {
-    font-weight: 500;
+    font-weight: normal;
 }
 
 .item-price {
-    front-weight: 500;
+    color: #7a5c4d;
 }
 
-.description {
+.sub-description {
     font-style: italic;
-    color: #ccc;
+    color: #888;
+    font-size: 15px;
+    margin-top: 2px;
 }
 
-hr {
-    border: none;
-    border-top: 1px solid #444;
-}
