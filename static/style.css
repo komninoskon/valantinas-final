@@ -128,3 +128,8 @@ nav a:hover {
     border-bottom: 1px dashed #ccc;
     max-width: 700px;
 }
+
+.drinks-background {
+    background-color: #73640;
+    color: white;
+}
