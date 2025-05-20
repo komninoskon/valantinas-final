@@ -1,52 +1,65 @@
 body {
-    background-color: #fdfaf7;
-    color: #3e3e3e;
-    font-family: 'Playfair Dispay', serif;
+    background-color: #f8f1ea;
+    color: #3c3c3c;
+    font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
-h1 {
-    text-align: center;
+h1, h2, h3 {
+    font-family: 'Playfair Display', 'Georgia', serif;
+}
+
+.menu-title {
     font-size: 36px;
-    color: #7a5c4d;
     margin-top: 40px;
-}
-h2 {
-    color: #6a6a6a;
-    text-align: center;
-    font-style: italic;
-    font-size: 26px;
-    margin-top: 40px;
-}
-.category {
-    margin-top: 60px;
-    text-align: left;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #6a4d3b;
 }
 
-.item {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 0;
-    border-botton: 1px solid #e0dcd5;
-    font-size: 18px;
+.category {
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #d6d0bf;
+    border-radius: 12px;
+    width: 80%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.category h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #8c856d;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .item-name {
-    font-weight: normal;
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    font-family; 'Georgia', serif;
 }
-
+    
 .item-price {
-    color: #7a5c4d;
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Georgia', serif;
+    color: #444;
 }
 
-.sub-description {
+.description {
     font-style: italic;
-    color: #888;
-    font-size: 15px;
-    margin-top: 2px;
+    font-size: 14px;
+    color: #666
+    margin-bottom: 20px;
 }
 
