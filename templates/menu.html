@@ -5,9 +5,11 @@
     <title>Valantina's Menu Since 1987</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link hrel="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <section class="menu-block light-green">
-         <h1 class="restaurant-title">Valantina's Restaurant<br><span class="subtitle">Lardos - Rhodes Restaurant Since 1987</span></h1>
-	<p class="menu-description">
+</head>
+<body class="menu-section">
+  
+	<h1>Welcome to Valantina's Restaurant</h1>
+	<p class="intro-text">
 	    From 1987, Valantina's Restaurant,<br>
 	    has been serving delicious traditional dishes.<br>
 	    We always take care with great devation all of our prime materials.<br>
@@ -19,15 +21,17 @@
 	    We thank yoy for the trust you show us and we would like<br>
 	    to welcome you to an even more delicious voyage.<br>
 
-	    With great love and respect<br>
-	    Valantina's Family!<br>
-    </p>
+	    <strong>With great love and respect<br>
+	    Valantina's Family!</strong>
+	</p>
 	
+	<section class="menu-block light-green">
+         <h1 class="restaurant-title">Valantina's Restaurant<br><span class="subtitle">Lardos - Rhodes Restaurant Since 1987</span></h1>
 </head>
 <body> 
     <header>
       
-          <p class="menu-description">
+          <p class="bread-note">
 		                                                                                                Delicious freshly baked aromatic bread,<br> 
 		                                                                                                prepared with care in our own kitchen.<br>
 		                                                                                                Hot and crusty, it is a perfect compination<br>
@@ -82,7 +86,7 @@
            <div class="item"><span class="item-name">Traditional Greek Salad</span><span class="item-price">9.90€</span></div>
            <div class="item"><span class="item-name">Ceasar's</span><span class="item-price">12.40€</span></div>
          </div>
-	  <p class=<"menu-description">
+	  <p class=<"salads-note">
 		                                                                                                    All of our salads are dressed<br>
 		                                                                                                    with extra virgin<br>
 		                                                                                                    Greek olive oil.<br>
@@ -138,7 +142,7 @@
                 <div class="item"><span class="item-name">Pappardelle with Beef</span><span class="item-price">17.90€</span></div>
                 <div class="item"><span class="item-name">Ravioli with Mushrooms</span><span class="item-price">15.50€</span></div>
        </div>
-	    <p class=<"menu-description">
+	    <p class=<"pasta & risotto-note">
 		                                                                                                    If Pasta means love<br>
 		                                                                                                    then Fresh Pasta surely is passion<br>
 		                                                                                                    Prepared daily in our kitchen<br>
@@ -157,7 +161,7 @@
               <div class="item"><span class="item-name">Lamb Shanks</span><span class="item-price">22.50€</span></div>
               <div class="item"><span class="item-name">Lardos Lamb</span><span class="item-price">17.90€</span></div>
           </div>
-		 <p class=<"menu-description">
+		 <p class=<"traditional dishes-note">
 			                                                                                             The traditional tastes and smells<br>
 			                                                                                             that one enjoys in the villages<br>
 			                                                                                             have an important place<br>
@@ -173,6 +177,14 @@
             <div class="item"><span class="item-name">Apple Pie Tart</span><span class="item-price">9.50€</span></div>
          </div>
     </section>
+
+  <nav>
+	  <a href="{{ url_for('food_menu') }}">View Food Menu</a> |
+	  <a href="{{ url_for('drinks_menu') }}">View Drinks Menu</a> |
+	  <a href="{{ url_for('book-table') }}">Book a Table</a>
+  </nav>
+	
 </body>
 </html>
+		
 
