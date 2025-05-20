@@ -1,5 +1,5 @@
 body {
-    background-color: #aca996;
+    background-color: #fefefb;
     color: #4a4a4a;
     font-family: 'Georgia', serif;
     margin: 0;
@@ -117,3 +117,14 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
+.menu-block {
+    padding: 30px 20px;
+    margin:30px 0;
+}
+
+.item {
+    margin: 10px auto;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #ccc;
+    max-width: 700px;
+}
